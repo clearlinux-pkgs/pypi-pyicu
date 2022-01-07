@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyicu
 Version  : 2.8
-Release  : 29
+Release  : 30
 URL      : https://files.pythonhosted.org/packages/1a/b6/ede5f19d79655898162afa778d2f38cbde04b0cccb8737c649cd5d3d38e0/PyICU-2.8.tar.gz
 Source0  : https://files.pythonhosted.org/packages/1a/b6/ede5f19d79655898162afa778d2f38cbde04b0cccb8737c649cd5d3d38e0/PyICU-2.8.tar.gz
 Summary  : Python extension wrapping the ICU C++ API
@@ -63,7 +63,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641522836
+export SOURCE_DATE_EPOCH=1641569781
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
