@@ -17,6 +17,7 @@ BuildRequires : buildreq-distutils3
 BuildRequires : pkgconfig(icu-i18n)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(wheel)
+Provides: pyicu
 
 %description
 ## Welcome
