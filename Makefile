@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pyicu
-URL = https://files.pythonhosted.org/packages/5c/d0/50e4319f07b0514a9da5dfdf65aa36c0782120c13b1d194a9c1a54cdc537/PyICU-2.8.1.tar.gz
+URL = https://files.pythonhosted.org/packages/11/76/9256430e729ad0dd4675a15a7bf0555b9085d1bea36083b9a1b095602f23/PyICU-2.9.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
