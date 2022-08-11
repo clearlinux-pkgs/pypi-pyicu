@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyicu
 Version  : 2.9
-Release  : 34
+Release  : 35
 URL      : https://files.pythonhosted.org/packages/11/76/9256430e729ad0dd4675a15a7bf0555b9085d1bea36083b9a1b095602f23/PyICU-2.9.tar.gz
 Source0  : https://files.pythonhosted.org/packages/11/76/9256430e729ad0dd4675a15a7bf0555b9085d1bea36083b9a1b095602f23/PyICU-2.9.tar.gz
 Summary  : Python extension wrapping the ICU C++ API
