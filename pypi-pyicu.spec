@@ -5,7 +5,7 @@
 #
 Name     : pypi-pyicu
 Version  : 2.11
-Release  : 44
+Release  : 45
 URL      : https://files.pythonhosted.org/packages/03/1b/800fce0236be0b8a99b3ccbb797786dd178028960b3fd65544e2d8bad5ac/PyICU-2.11.tar.gz
 Source0  : https://files.pythonhosted.org/packages/03/1b/800fce0236be0b8a99b3ccbb797786dd178028960b3fd65544e2d8bad5ac/PyICU-2.11.tar.gz
 Summary  : Python extension wrapping the ICU C++ API
@@ -16,6 +16,8 @@ Requires: pypi-pyicu-python = %{version}-%{release}
 Requires: pypi-pyicu-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 BuildRequires : pkgconfig(icu-i18n)
+BuildRequires : pypi(setuptools)
+BuildRequires : pypi(wheel)
 # Suppress stripping binaries
 %define __strip /bin/true
 %define debug_package %{nil}
@@ -68,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683046402
+export SOURCE_DATE_EPOCH=1683821465
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
