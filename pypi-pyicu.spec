@@ -7,7 +7,7 @@
 #
 Name     : pypi-pyicu
 Version  : 2.12
-Release  : 49
+Release  : 50
 URL      : https://files.pythonhosted.org/packages/c8/25/38a2104fd48373cfd4eac5104f104ef486f61527e48d627de74794354a2c/PyICU-2.12.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c8/25/38a2104fd48373cfd4eac5104f104ef486f61527e48d627de74794354a2c/PyICU-2.12.tar.gz
 Summary  : Python extension wrapping the ICU C++ API
