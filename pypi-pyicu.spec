@@ -7,7 +7,7 @@
 #
 Name     : pypi-pyicu
 Version  : 2.13
-Release  : 51
+Release  : 52
 URL      : https://files.pythonhosted.org/packages/bb/bb/fe4a180376ee695f76925b1a6b159353873b61e0f82ac16150d22cdd56c3/PyICU-2.13.tar.gz
 Source0  : https://files.pythonhosted.org/packages/bb/bb/fe4a180376ee695f76925b1a6b159353873b61e0f82ac16150d22cdd56c3/PyICU-2.13.tar.gz
 Summary  : Python extension wrapping the ICU C++ API
@@ -54,6 +54,7 @@ python components for the pypi-pyicu package.
 Summary: python3 components for the pypi-pyicu package.
 Group: Default
 Requires: python3-core
+Provides: pypi(pyicu)
 
 %description python3
 python3 components for the pypi-pyicu package.
@@ -71,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1713666307
+export SOURCE_DATE_EPOCH=1713797630
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
