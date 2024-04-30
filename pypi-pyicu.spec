@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : pypi-pyicu
-Version  : 2.13
-Release  : 52
-URL      : https://files.pythonhosted.org/packages/bb/bb/fe4a180376ee695f76925b1a6b159353873b61e0f82ac16150d22cdd56c3/PyICU-2.13.tar.gz
-Source0  : https://files.pythonhosted.org/packages/bb/bb/fe4a180376ee695f76925b1a6b159353873b61e0f82ac16150d22cdd56c3/PyICU-2.13.tar.gz
+Version  : 2.13.1
+Release  : 53
+URL      : https://files.pythonhosted.org/packages/60/b8/1540a0a0cd74aa878749d442e19916df946e3b187c9965a991ddc77cc39c/PyICU-2.13.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/60/b8/1540a0a0cd74aa878749d442e19916df946e3b187c9965a991ddc77cc39c/PyICU-2.13.1.tar.gz
 Summary  : Python extension wrapping the ICU C++ API
 Group    : Development/Tools
 License  : MIT
@@ -61,10 +61,10 @@ python3 components for the pypi-pyicu package.
 
 
 %prep
-%setup -q -n pyicu-2.13
-cd %{_builddir}/pyicu-2.13
+%setup -q -n pyicu-2.13.1
+cd %{_builddir}/pyicu-2.13.1
 pushd ..
-cp -a pyicu-2.13 buildavx2
+cp -a pyicu-2.13.1 buildavx2
 popd
 
 %build
@@ -72,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1713797630
+export SOURCE_DATE_EPOCH=1714494242
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
